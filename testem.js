@@ -22,4 +22,10 @@ module.exports = {
       ].filter(Boolean)
     }
   }
+  proxies: {
+    '/backstop': {
+      target: 'http://localhost:3000',
+      secure: false,
+    },
+  },
 };

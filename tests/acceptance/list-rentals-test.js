@@ -10,6 +10,7 @@ import {
   fillIn,
   triggerKeyEvent
 } from '@ember/test-helpers'
+import backstop from 'ember-backstop/test-support/backstop';
 
 let StubMapsService = Service.extend({
   getMapElement() {
@@ -44,6 +45,7 @@ module('Acceptance | list rentals', function(hooks) {
 
   test('should list available rentals', async function(assert) {
     await visit('/');
+    await backstop(assert);
     assert.equal(this.element.querySelectorAll('.results .listing').length, 3, 'should display 3 listings');
   });
 
@@ -51,6 +53,7 @@ module('Acceptance | list rentals', function(hooks) {
     await visit('/');
     await fillIn('.list-filter input', 'seattle');
     await triggerKeyEvent('.list-filter input', 'keyup', 69);
+    await backstop(assert);
     assert.ok(this.element.querySelectorAll('.results .listing').length, 1, 'should display 1 listing');
     assert.ok(this.element.querySelector('.listing .location').textContent.includes('Seattle'), 'should contain 1 listing with location Seattle');
   });
@@ -58,6 +61,7 @@ module('Acceptance | list rentals', function(hooks) {
   test('should show details for a specific rental', async function(assert) {
     await visit('/rentals');
     await click(".grand-old-mansion");
+    await backstop(assert);
     assert.equal(currentURL(), '/rentals/grand-old-mansion', "should navigate to show route");
     assert.ok(this.element.querySelector('.show-listing h2').textContent.includes("Grand Old Mansion"), 'should list rental title');
     assert.ok(this.element.querySelector('.show-listing .description'), 'should list a description of the property');
