@@ -21,7 +21,7 @@ You will need the following things properly installed on your machine.
 First, find a spot on your machine where you want to put the demo -- desktop works fine...
 
 ```
-git clone https://github.com/garris/super-rentals
+git clone https://github.com/garris/ember-backstop-tutorial/
 cd super-rentals
 yarn install
 ```
