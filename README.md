@@ -1,4 +1,4 @@
-# Ember-Backstop Visual Regression Test Tutorial
+# Ember-Backstop Visual Test-Helper Tutorial
 
 The ember-backstop test helper makes it wicked easy for you to add powerful visual tests to your ember app.  This tutorial is designed to show you how in under 5 minutes!
 
