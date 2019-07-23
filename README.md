@@ -92,11 +92,11 @@ In another window approve the tests with...
 ember backstop-approve
 ```
 
-Now run tests again [refresh http://localhost:4200/tests](http://localhost:4200/tests) -- they should all pass!  
+Now run tests again (refresh [http://localhost:4200/tests](http://localhost:4200/tests)) -- they should all pass!  
 
-Refresh the BackstopJS report once tests have completed.  It should look like this...
+When the testem tests (above) have completed go ahead and refresh the Backstop report here [http://localhost:4200/backstop/backstop_data/html_report/](http://localhost:4200/backstop/backstop_data/html_report/).  It should look like this...
 
-![Start with ordinary testem tests](./backstop-tutorial/localhost_4200_backstop_backstop_data_html_report_ copy.png)
+![Start with ordinary testem tests](./backstop-tutorial/localhost_4200_backstop_backstop_data_html_report_passing.png)
 
 **Congratulations! BackstopJS tests are all set up!**  Just add a `backstop()` helper anywhere and a screenshot will capture the rendered visual state at that time.
 
