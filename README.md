@@ -84,7 +84,7 @@ Testem is showing failed BackstopJS tests -- which have failed because we have n
 That should look like this...
 ![Start with ordinary testem tests](./backstop-tutorial/localhost_4200_backstop_backstop_data_html_report_.png)
 
-These screens look good -- lets approve them so that future screenshots will be compared against these.  
+These test screenshots look good -- lets tell backstop to approve them which will remove our error state here and ensure that future test screenshots will be compared against these.  
 
 In another window approve the tests with...
 
@@ -92,7 +92,7 @@ In another window approve the tests with...
 ember backstop-approve
 ```
 
-Now run tests again -- they should all pass!  
+Now run tests again [refresh http://localhost:4200/tests](http://localhost:4200/tests) -- they should all pass!  
 
 Refresh the BackstopJS report once tests have completed.  It should look like this...
 
