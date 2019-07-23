@@ -1,6 +1,6 @@
-# Ember-Backstop Visual Regression Test Demo
+# Ember-Backstop Visual Regression Test Tutorial
 
-This demo starts with a fork of the EmberJS **Super Rentals** tutorial. We added the ember-backstop test helper to the project and configured everything for you so you can get right in and experience visual testing with everything all set up. Awesome.
+This tutorial starts with a fork of the EmberJS **Super Rentals** tutorial. We added the ember-backstop test helper to the project and configured everything for you so you can get right in and experience visual testing with everything all set up. Awesome.
 
 *This demo is based on the original working repository for the EmberJS Super Rentals tutorial. More info at https://guides.emberjs.com/current/tutorial/ember-cli/.*
 
