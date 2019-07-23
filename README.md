@@ -1,8 +1,8 @@
 # Ember-Backstop Visual Test-Helper Tutorial
 
-The ember-backstop test helper makes it wicked easy for you to add powerful visual tests to your ember app.  This tutorial is designed to show you how in under 5 minutes!
+The [ember-backstop test-helper addon](https://github.com/garris/ember-backstop) makes it **wicked easy** for you to add powerful visual tests to your ember app.  This tutorial is designed to show you how in *about 5 minutes*.
 
-This tutorial starts with a fork of the EmberJS [Super Rentals](https://guides.emberjs.com/current/tutorial/ember-cli/) tutorial. We added the ember-backstop test helper to the project and configured everything for you so you can get right in and experience visual testing with everything all set up. Awesome.
+This tutorial starts with a fork of the EmberJS [Super Rentals](https://guides.emberjs.com/current/tutorial/ember-cli/) tutorial. We added the [ember-backstop](https://github.com/garris/ember-backstop) test helper to the project and configured everything for you so you can get right in and experience visual testing with everything all set up. Awesome.
 
 ## Prerequisites
 
@@ -112,8 +112,7 @@ The above changes is caught by BackstopJS...
 
 ## Further Reading / Useful Links
 
+* [BackstopJS](http://backstopjs.org)
+* [ember-backstop addon helper for Ember apps](https://github.com/garris/ember-backstop)
 * [ember.js](https://emberjs.com/)
 * [ember-cli](https://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
