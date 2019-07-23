@@ -20,7 +20,7 @@ First, find a spot on your machine where you want to put the demo -- desktop wor
 
 ```
 git clone https://github.com/garris/ember-backstop-tutorial/
-cd super-rentals
+cd ember-backstop-tutorial
 yarn install
 ```
 
