@@ -1,5 +1,7 @@
 # Ember-Backstop Visual Regression Test Tutorial
 
+The ember-backstop test helper makes it wicked easy for you to add powerful visual tests to your ember app.  This tutorial is designed to show you how in under 5 minutes!
+
 This tutorial starts with a fork of the EmberJS **Super Rentals** tutorial. We added the ember-backstop test helper to the project and configured everything for you so you can get right in and experience visual testing with everything all set up. Awesome.
 
 *This demo is based on the original working repository for the EmberJS Super Rentals tutorial. More info at https://guides.emberjs.com/current/tutorial/ember-cli/.*
