@@ -41,7 +41,7 @@ Ok, let's get to the tests!
 
 ## Add Visual Regression Tests
 
-### Start by running the basic tests
+### Start by running the original (old-school) tests
 
 So, by now your server is running and the demo app will be hittable at [http://localhost:4200](http://localhost:4200).  Go ahead and click around there. We'll wait...
 
