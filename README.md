@@ -63,7 +63,7 @@ import backstop from 'ember-backstop/test-support/backstop';
   test('it renders the thing', async function(assert) {
     await visit('/sales/company/11102');
     await backstop(assert);
-    assert.dom('#myFancyElement').Exists();
+    assert.dom('#myFancyElement').exists();
   });
 ```
 
@@ -102,7 +102,7 @@ When the testem tests (above) have completed go ahead and refresh the Backstop r
 
 Go forth now and experiment with your new visual powers! 
 
-As a suggestion you could open up the project css file at `vendor/ember-tutorial.css`. Go ahead and delete the `postion: static;` as shown in the following file. See if BackstopJS can find the changes... 😉
+As a suggestion you could open up the project css file at `vendor/ember-tutorial.css`. Go ahead and delete the `position: static;` as shown in the following file. See if BackstopJS can find the changes... 😉
 
 ![Start with ordinary testem tests](./backstop-tutorial/lets-break-one-of-our-screens.png)
 
