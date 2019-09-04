@@ -3566,9 +3566,9 @@ ember-assign-polyfill@~2.4.0:
     ember-cli-babel "^6.6.0"
     ember-cli-version-checker "^2.0.0"
 
-ember-backstop@^1.1.2:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/ember-backstop/-/ember-backstop-1.1.2.tgz#49c08759589c256b26d07f0f428132ead7678bfa"
+ember-backstop@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/ember-backstop/-/ember-backstop-1.2.1.tgz#69d62abe43feb7ec2d9b27f01876c35c035863f7"
   dependencies:
     ember-cli-babel "^7.7.3"
 
