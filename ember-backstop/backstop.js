@@ -19,6 +19,7 @@ module.exports = {
       delay: 500,
     },
   ],
+  misMatchThreshold: 0.001,
   paths: {
     bitmaps_reference: 'backstop_data/bitmaps_reference',
     bitmaps_test: 'backstop_data/bitmaps_test',
